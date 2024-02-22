@@ -2,3 +2,4 @@ LaTeX_files/*.aux
 LaTeX_files/*.log
 Latex_files/*.dvi
 Makefile
+._wordcount_selection.tex 
