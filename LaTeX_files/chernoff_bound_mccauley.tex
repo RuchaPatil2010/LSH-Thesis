@@ -1,7 +1,7 @@
 \documentclass{article}
+\usepackage{my_style}
 \usepackage{graphicx} % Required for inserting images
-\usepackage{amssymb}
-\usepackage{amsmath}
+\usepackage{natbib}
 
 \title{Using Chernoff Bound in the Proof of Lemma 6 of Approximate Similarity Search Under Edit Distance using Locality-Sensitive Hashing}
 \author{}
@@ -10,38 +10,62 @@
 \begin{document}
 
 \maketitle
-Lemma 6. For any string x of length d, 
-$Pr_\rho [\tau(x,\rho) is complete] \geq 1-1/n^2$.\\
 
-A transcript $\tau(x,\rho)$ is complete if 
-$|\tau(x,\rho)| < 8d/(1-p_a)+6\log n$. \\
-Let the transcript contain l insert operations, as the maximum length of a string is $d$, $|\tau(x,\rho)| \leq d+l$\\
-\\
-We check the bounds for the probability of $l>7d/(1-p_a)+6\log n$. \\
-Consider success to be when we do not have hash-insert operations. This behaves like a geometric progression with probability = $(1-p_a)$. The Expected number of hash-inserts we need to get an operation which is not a hash-insert would be $\frac{1}{(1-p_a)}$\\
-Hence, 
-$E[hash\ inserts\ for\ each\ character] = 1/(1-p_a)$.\\
-$\therefore$ E[l] = $d/(1-p_a)$.\\
-\\
-One of the Chernoff bounds is:\\
-$Pr(X \geq (1+\delta)E[X]) \leq (\frac{e^\delta}{(1+\delta)^(1+\delta)})^{E[X]}$\\
-$\implies Pr(X \geq (1+\delta)E[X]) \leq e^{(\delta - (1+\delta)ln(1+\delta))*E[X]}$ -----(1) \\
-To calculate $Pr(l > 7d/(1-p_a) + 6\log n)$ with $E[X]=d/(1-p_a)$, $\delta = 6 + \frac{6(1-p_a)\log n}{d}$\\
-\\
-Referring to "A guided tour of Chernoff bounds":\\
-$\epsilon - (1+\epsilon)ln(1+\epsilon) \leq -\epsilon ^2/3 $, when $0 \leq \epsilon \leq 1$ \\
-\\
-We have the value of $\delta = 6 + \frac{6(1-p_a)\log n}{d} > 6$, hence we cannot use the above bound, instead we use:\\
-$\delta - (1+\delta)ln(1+\delta) \leq -\delta/3$, when $\delta>1$\\
-\\
-Substituting in (1), we get:\\
-$Pr(l \geq (1+\delta)E[X]) \leq e^{-\delta E[X]/3}$\\
-$Pr(l > 7d/(1-p_a) + 6\log n) < e^{-(6d/(1-p_a)+6\log n)/3}$\\
-\\
-As $\frac{6d}{(1-p_a)} > 0$,\\
-$\implies Pr(l > 7d/(1-p_a) + 6\log n) < e^{-(6\log n)/3}$\\
-$\implies Pr(l > 7d/(1-p_a) + 6\log n) < 1/n^2$\\
+\begin{lem}[Lemma 6 in \cite{McC21}]
+For any string $x$ of length $d$,
+$\Pr_\rho  (\tau(x, \rho) \text{ is complete}) \geq 1-1/n^2$.\\
+\end{lem}
+
+\begin{proof}[\textbf{Proof of Lemma 6}]
+
+Recall that a transcript $\tau(x, \rho)$ is complete if
+$|\tau(x, \rho)| < 8d/(1-p_a)+6\log n$.
+If the transcript contains $l$ insert operations, $|\tau(x,\rho)| \leq d+l$
+since the maximum length of a string is $d$.
+
+\noindent
+We check the bounds for the probability of $l>7d/(1-p_a)+6\log n$.
+
+Consider success to be when we do not have hash-insert operations. This
+behaves like a geometric progression with probability = $(1-p_a)$. The
+expected number of hash-inserts we need to get an operation which is not a
+hash-insert would be $\frac{1}{1-p_a}$.
 Hence,
-$Pr(l < 7d/(1-p_a) + 6\log n) > 1-1/n^2$\\
+\[E[l] = \frac{d}{1-p_a}\]
+
+\noindent
+The relevant Chernoff bound is:
+\begin{align}
+\Pr(X \geq (1+\delta)E[X]) & ~\leq ~( \frac{e^\delta}{(1+\delta)^(1+\delta)} )^{E[X]}  \nonumber \\
+& ~= ~e^{[\delta - (1+\delta)\ln(1+\delta)]*E[X]} \label{cbound}
+\end{align}
+
+\noindent
+We will be manipulating Equation (\ref{cbound}) in the sequel. To calculate
+$\Pr(l > 7d/(1-p_a) + 6\log n)$ with $E[X]=d/(1-p_a)$, we set $\delta = 6 + \frac{6(1-p_a)\log n}{d}$.
+We know that
+$\delta - (1+\delta) \ln(1+\delta) \leq -\delta ^2/3 $, when $0 \leq \delta \leq 1$~\cite{HR90}.
+However, our value of $\delta = 6 + \frac{6(1-p_a)\log n}{d} > 6$, hence we cannot use the above bound. Instead, we use the fact that:
+\[\delta - (1+\delta)\ln(1+\delta) \leq -\delta/3\]
+when $\delta>1$.
+
+\noindent
+Substituting this in Equation (\ref{cbound}) and using the fact that $\frac{6d}{(1-p_a)} > 0$, we get:
+\begin{align}
+\Pr(l \geq (1+\delta)E[X]) & ~\leq ~e^{-\delta E[X]/3} \nonumber \\
+& ~<~ e^{-(6d/(1-p_a)+6\log n)/3}  \nonumber \\
+& ~<~ e^{-(6\log n)/3} \nonumber \\
+& ~=~ 1/n^2
+\end{align}
+Hence,
+$\Pr(l < 7d/(1-p_a) + 6\log n) > 1-1/n^2$\\
+
+\end{proof}
+
+
+\bibliographystyle{alpha}
+\bibliography{refs}
+
+
 
 \end{document}

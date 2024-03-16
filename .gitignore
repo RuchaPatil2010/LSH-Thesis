@@ -1,5 +1,7 @@
 LaTeX_files/*.aux
 LaTeX_files/*.log
+LaTex_files/*.bbl
+Latex_files/*.blg
 Latex_files/*.dvi
 Makefile
 ._wordcount_selection.tex 
