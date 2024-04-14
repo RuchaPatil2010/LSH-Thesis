@@ -95,25 +95,26 @@ $O(n^{1/6})$, where $n$ is the length of both the strings.
             \therefore \Pr(X<3n) &~\geq ~1-e^{-n/6} \nonumber
         \end{align}
         
-        \item Consider the $i$ value mentioned in Algorithm 1 is $n+1$ for both
-        $x$ and $y$.\\
-        Let $l = \Delta_H(f(x,r),f(y,r))$, then we need to apply atmost $l$ edit
-        operations to $x$ to get $y$. \\
-        Except, when atmost the last $l$ bits of $y$ are 0 and align with the 
-        padded 0s of $x$. (The paper \cite{CGK16}, does not mention the last 
-        bits of $x$ here, but I think that maximum of $l$ bits from either $x$ and
-        $y$ could be aligned with the padded 0s of the other).\\
-        Hence, $\Delta_e(x,y) \leq 2l$.\\
-        As per out initial assumption, this is possible only when the $i$ value
-        reach $n+1$ for both $x$ and $y$.\\
-        \begin{align}
-            \Pr(X<3n \cap Y<3n) &~=~ \Pr(X<3n) \cdot \Pr(Y<3n) ---(X and Y are independent events) \nonumber \\
-            &~=~ (1-e^{-n/6})\cdot(1-e^{-n/6}) \nonumber\\
-            &~=~ 1-2e^{-n/6}+e^{-n/3} \nonumber\\
-            &~\approx~ 1-2e^{-n/6} \nonumber \\
-            &~=~ 1-e^{-(n/6-log2)} \nonumber \\
-            &~=~ 1-e^{(-\Omega(n))} \nonumber
-        \end{align}
+        \item $y$ differs from $x$ only in the parts where $f(x,r)\neq f(y,r)$.\\
+        $f(x,r)_j\neq f(y,r)_j \Longrightarrow x_{i_x(j)}\neq y_{i_y(j)}$\\
+        If $l=\Delta_H(f(x,r),f(y,r))$, then $x_{i_x(j)}\neq y_{i_y(j)}$ in atmost
+        $l$ places.\\
+        Define the following edit operations:\\
+        \begin{align*}
+            h_j(f(x,r)_j),h_j(f(y,r)_j) &~=~ (0,0) &&, \text{ignore} \nonumber\\
+            &~=~ (0,1) &&,insert \nonumber \\
+            &~=~ (1,0) &&,delete \nonumber \\
+            &~=~ (1,1) &&,replace \nonumber
+        \end{align*}
+        We ignore at (0,0) as $(j+1)^{th}$ index would have the same values.\\
+        Hence, the number of edit operations required would be less than or equal to the 
+        hamming distance. \\
+        Except, we need to consider the case where $0$s at the end of $x$ or $y$ 
+        coincide with the trailing $0$s, in this case, the actual bit flips required
+        would be $2l$.\\
+        Hence, $\Delta_e(x,y) \leq 2*\Delta_H(f(x,r),f(y,r))$.\\
+
+
         \item This can be proved by combining \textbf{Lemma 4.2} and 
         \textbf{Proposition 3.2}.\\
         \textbf{Lemma 4.2}: 
@@ -140,35 +141,104 @@ $O(n^{1/6})$, where $n$ is the length of both the strings.
     where the probability is over the choice of $r$.
 \end{lem}
 
-\begin{proof}[\textbf{Proof}][\textit{My interpretation}]
-    $k$ is the Edit Distance $\Delta_e(x,y)$.\\
-    Imagine a timeline, we start at 0 and have a marker at $k$.\\
-    Our methodology for moving on the timeline is as follows:
+\begin{proof}[\textbf{Proof}]
+    \textit{Example:}\\
+    \includegraphics{./utils/CGK_Lemma4.2.png}\\
     \begin{enumerate}
-        \item $i_x(t)$ and $i_y(t)$ are the indices of $x$ and $y$ being embedded
-        at time $t$. Our position on the timeline would be $i_x(t)-i_y(t)$ at any
-        given time. Since the Edit Distance = $k$, the value of $i_x(t)-i_y(t)$
-        should be less than $k$ at all times.
-        \item Let $d_t=i_x(t)-i_y(t)$,
-        \begin{enumerate}
-            \item when $x_{ix(t)}=y_{iy(t)}$, then 
-            $h_t(x_{ix(t)}),h_t(y_{iy(t)})=(0,0) \text{ or }(1,1) $\\
-            $\implies $ value of $d_t$ does not change.\\
+        \item In the above image, we have the value of $x$, $y$, $f(x,r)$ and 
+        $f(y,r)$ (based on the H-values mentioned on the right side).\\
+        The values $i_x$ and $i_y$ are the indices of $x$ and $y$ for the given 
+        $f$ values.\\
 
-            \item when $x_{ix(t)}\neq y_{iy(t)}$, then 
-            $h_t(x_{ix(t)}),h_t(y_{iy(t)})=(0,0),(0,1),(1,0),(1,1) $\\
-            $\implies$ value of $d_t$ changes only when $x_{ix(t)} \neq y_{iy(t)}$ \\
-            $\implies$ $d_t$ changes only when it is contributing to the Hamming Distance.
-            $\implies$ Hamming Distance could be interpreted as our movement on the
-            timeline.
-        \end{enumerate}
-        \item Ignoring the steps when $x_{ix(t)}=y_{iy(t)}$, the probability that
-        we move $+1$ steps is $1/4$, $-1$ steps is $1/4$ and stay where we are
-        is $1/2$. 
-        \item Hence, the \textbf{Lemma} statement can be interpreted as: The Probability 
-        that we take atmost $l$ steps to reach $k$ is greater than the probability 
-        that we reach $k$ for the first time within $l$ steps.
+        \item \textbf{Particle Moment:}
+        Every step taken by the particle is defined as $h_j(x_{i_x(j)})-h_j(y_{i_y(j)})$,
+        for $j^{th}$ value of $f(x,r)$ and $f(y,r)$.\\
+        Now, $\sum_{k=0}^{j} h_j(x_{i_x(k)}) = i_x(j)-1$ and 
+        $\sum_{k=0}^{j} h_j(y_{i_y(k)}) = i_y(j)-1$, as the $i$ value changes
+        only when $h()=1$. \\
+        Hence, $h_j(x_{i_x(j)})-h_j(y_{i_y(j)})=i_x(j)-i_y(j)$.\\
+        Hence, the position of particle at time $j$ is $i_x(j)-i_y(j)$.
+
+        \item \textbf{Goalspot:}
+        We define $y=x^{(0)},x^{(1)},...,x^{(k)}=x$ as a series of $k$ strings
+        such that the first string is $y$ and the last string is $x$ and 
+        $\Delta_e(x^{(l-1)},x^{(l)})=1$.\\
+        $\therefore$, in the above image, each $x^{(l)}$ is mentioned. The
+        inserted bits are colored yellow, replaced bits are colored blue and 
+        deleted bits are colored red. The edit operation from $x^{(1)},x^{(6)}$
+        are: insert, insert, replace, replace, delete, delete. The first index $(i^{(l)})$
+        where $x^{(l)}$ differs from $x^{(l-1)}$ is 4, 7, 9, 12, 15, 15 respectively.\\
+        We define $d_j$(goalspot) as:\\
+        $d_0=0$ \\
+        when $i_x(j)=i^{(l)}$ for the first time, if the corresponding edit
+        operation is:\\
+        \begin{align}
+            \text{insert } &\Longrightarrow \text{ increment } d_j \text{ by 1} \nonumber\\ 
+            delete &\Longrightarrow \text{ decrement } d_j \text{ by 1 } \nonumber\\
+            otherwise &\Longrightarrow \text{ do not change } d_j \nonumber
+        \end{align}
+        \\
+        \item Idle state:
+        \begin{equation}
+        \label{idle}
+         d_j=i_x(j)-i_y(j) \Longrightarrow x_{i_x(j)}=y_{i_y(j)}    
+        \end{equation}
+        When $d_j=i_x(j)-i_y(j)$, the $x$ and $y$ strings are aligned at 
+        that point $\Longrightarrow x_{i_x(j)}=y_{i_y(j)} \Longrightarrow f(x,r)_j=f(y,r)_j$\\
+        $x$ and $y$ would continue to be in alignment (defined as the idle state)
+        unless and until $d_j$ does not change, i.e. we do not 
+        encounter an edit operation.\\
+
+        \item We can verify from the above image, when $d_j=x_{i_x(j)}-y_{i_y(j)}$
+        then $f(x,r)_j=f(y,r)_j$.\\
+        \textit{Except,} when we have replace operation (the cell marked red in 
+        the last row). Because in case of replace, $x$ and $y$ are aligned, but
+        their values are different. Ergo, the system won't be in an idle state.
+
     \end{enumerate}
+
+    \textbf{Kennel Struggle:} \\
+    
+    \begin{enumerate}
+        \item \textbf{Kennel} $\equiv$ Goalspot.
+        \item \textbf{Cat} $\equiv$ Particle. Cat has a random moment \{-1,0,+1\}
+        with probability \{1/4,1/2,1/4\}.
+        \item \textbf{Dog} $\equiv$ Edit distance. The dog is incharge of moving 
+        the kennel. The actions involve moving the kennel to the left($\equiv$ 
+        Deletion), moving the kennel to the right($\equiv$ Insertion), barking
+        ($\equiv$ Bit flip). The Dog disappears after $k$ steps. 
+        \textbf{Note:} When the Cat reaches the Kennel, the dog has to make a 
+        move because Cat reaching the Kennel $equiv$ Particle=Goalspot, referring
+        to \ref{idle}, this would mean that the system is in idle state and would
+        continue to remain in idle state unless the value of $d_j$ does not 
+        change.
+    \end{enumerate}
+    \textbf{Success Scenario:} Cat reaches an empty Kennel.\\
+    Probability of Cat reaching an empty Kennel in $l$ steps is least if the dog
+    uses the following strategy:\\
+    \begin{enumerate}
+        \item Move the Kennel to the left by 1 position
+        \item Wait until the cat reaches the Kennel
+        \item Move the Kennel to left by 1 position
+    \end{enumerate}
+    As Dog has $k$ 
+    moves, the above process will repeat $k$ times.\\
+    \\
+    The probability that the Cat reaches position 1 for the first time in t moves is given by
+    $q(t,1)$. Hence for $k$ steps, we have 
+    $\sum_{t_1+t_2+...+t_k<l}^{}(q(t_1,1)q(t_2,1)...q(t_k,1))$.\\
+    Hence,
+    \begin{align}
+        \Pr(\text{Cat reaches empty Kennel in atmost}l\text{ steps}) & ~\geq ~\sum_{t_1+t_2+...+t_k\leq l}^{}(q(t_1,1)q(t_2,1)...q(t_k,1)) \nonumber \\
+        \Pr(\text{Cat reaches empty Kennel in atmost}l\text{ steps}) & ~\geq ~
+        \sum_{t\leq l}^{}q(t,k) \nonumber \\
+        \mathclap{\text{As the Particle moment is defined by }h_j(x_{i_x(j)})-h_j(y_{i_y(j)})
+        \text{, the Particle would move only when }x_{i_x(j)}\neq y_{i_y(j)}} \nonumber\\
+        \Pr(\Delta_H(f(x,r),f(y,r))\leq l) & ~\geq ~
+        \sum_{t\leq l}^{}q(t,k) \nonumber \\
+        \Pr(\Delta_H(f(x,r),f(y,r))\leq l) & ~\geq ~
+        \sum_{t=0}^{l}q(t,k) \nonumber 
+    \end{align}
 \end{proof}
 
 
