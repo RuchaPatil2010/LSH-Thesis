@@ -1,0 +1,1002 @@
+For strings with lower edit distance:
+value of p=0.020520437921100216, and r=4
+Probability of h(x)=h(y) is: 0.0
+p^r=1.7731541743257287e-07
+p^r-2/n^2=-5.296171878544347e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=10
+Probability of h(x)=h(y) is: 0.0
+p^r=1.3239337303654944e-17
+p^r-2/n^2=-7.069326052737682e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=1
+Probability of h(x)=h(y) is: 0.023
+p^r=0.020520437921100216
+p^r-2/n^2=0.020519730988494928
+Is probability in bounds?: False
+value of p=0.020520437921100216, and r=6
+Probability of h(x)=h(y) is: 0.0
+p^r=7.466546054118177e-11
+p^r-2/n^2=-7.068579398264664e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=9
+Probability of h(x)=h(y) is: 0.0
+p^r=6.451781075315915e-16
+p^r-2/n^2=-7.069326046418294e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=7
+Probability of h(x)=h(y) is: 0.0
+p^r=1.5321679478856782e-12
+p^r-2/n^2=-7.069310731190597e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=7
+Probability of h(x)=h(y) is: 0.0
+p^r=1.5321679478856782e-12
+p^r-2/n^2=-7.069310731190597e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=3
+Probability of h(x)=h(y) is: 0.0
+p^r=8.640917806644255e-06
+p^r-2/n^2=7.933985201357248e-06
+Is probability in bounds?: False
+value of p=0.020520437921100216, and r=10
+Probability of h(x)=h(y) is: 0.0
+p^r=1.3239337303654944e-17
+p^r-2/n^2=-7.069326052737682e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=5
+Probability of h(x)=h(y) is: 0.0
+p^r=3.638590015879083e-09
+p^r-2/n^2=-7.032940152711285e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=8
+Probability of h(x)=h(y) is: 0.0
+p^r=3.144075725928757e-14
+p^r-2/n^2=-7.069325738462502e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=9
+Probability of h(x)=h(y) is: 0.0
+p^r=6.451781075315915e-16
+p^r-2/n^2=-7.069326046418294e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=10
+Probability of h(x)=h(y) is: 0.0
+p^r=1.3239337303654944e-17
+p^r-2/n^2=-7.069326052737682e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=5
+Probability of h(x)=h(y) is: 0.0
+p^r=3.638590015879083e-09
+p^r-2/n^2=-7.032940152711285e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=10
+Probability of h(x)=h(y) is: 0.0
+p^r=1.3239337303654944e-17
+p^r-2/n^2=-7.069326052737682e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=6
+Probability of h(x)=h(y) is: 0.0
+p^r=7.466546054118177e-11
+p^r-2/n^2=-7.068579398264664e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=10
+Probability of h(x)=h(y) is: 0.0
+p^r=1.3239337303654944e-17
+p^r-2/n^2=-7.069326052737682e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=2
+Probability of h(x)=h(y) is: 0.001
+p^r=0.00042108837247372777
+p^r-2/n^2=0.00042038143986844077
+Is probability in bounds?: False
+value of p=0.020520437921100216, and r=2
+Probability of h(x)=h(y) is: 0.001
+p^r=0.00042108837247372777
+p^r-2/n^2=0.00042038143986844077
+Is probability in bounds?: False
+value of p=0.020520437921100216, and r=6
+Probability of h(x)=h(y) is: 0.0
+p^r=7.466546054118177e-11
+p^r-2/n^2=-7.068579398264664e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=5
+Probability of h(x)=h(y) is: 0.0
+p^r=3.638590015879083e-09
+p^r-2/n^2=-7.032940152711285e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=6
+Probability of h(x)=h(y) is: 0.0
+p^r=7.466546054118177e-11
+p^r-2/n^2=-7.068579398264664e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=3
+Probability of h(x)=h(y) is: 0.0
+p^r=8.640917806644255e-06
+p^r-2/n^2=7.933985201357248e-06
+Is probability in bounds?: False
+value of p=0.020520437921100216, and r=7
+Probability of h(x)=h(y) is: 0.0
+p^r=1.5321679478856782e-12
+p^r-2/n^2=-7.069310731190597e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=2
+Probability of h(x)=h(y) is: 0.001
+p^r=0.00042108837247372777
+p^r-2/n^2=0.00042038143986844077
+Is probability in bounds?: False
+value of p=0.020520437921100216, and r=2
+Probability of h(x)=h(y) is: 0.001
+p^r=0.00042108837247372777
+p^r-2/n^2=0.00042038143986844077
+Is probability in bounds?: False
+value of p=0.020520437921100216, and r=2
+Probability of h(x)=h(y) is: 0.001
+p^r=0.00042108837247372777
+p^r-2/n^2=0.00042038143986844077
+Is probability in bounds?: False
+value of p=0.020520437921100216, and r=4
+Probability of h(x)=h(y) is: 0.0
+p^r=1.7731541743257287e-07
+p^r-2/n^2=-5.296171878544347e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=8
+Probability of h(x)=h(y) is: 0.0
+p^r=3.144075725928757e-14
+p^r-2/n^2=-7.069325738462502e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=4
+Probability of h(x)=h(y) is: 0.0
+p^r=1.7731541743257287e-07
+p^r-2/n^2=-5.296171878544347e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=2
+Probability of h(x)=h(y) is: 0.0
+p^r=0.00042108837247372777
+p^r-2/n^2=0.00042038143986844077
+Is probability in bounds?: False
+value of p=0.020520437921100216, and r=2
+Probability of h(x)=h(y) is: 0.001
+p^r=0.00042108837247372777
+p^r-2/n^2=0.00042038143986844077
+Is probability in bounds?: False
+value of p=0.020520437921100216, and r=2
+Probability of h(x)=h(y) is: 0.001
+p^r=0.00042108837247372777
+p^r-2/n^2=0.00042038143986844077
+Is probability in bounds?: False
+value of p=0.020520437921100216, and r=10
+Probability of h(x)=h(y) is: 0.0
+p^r=1.3239337303654944e-17
+p^r-2/n^2=-7.069326052737682e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=8
+Probability of h(x)=h(y) is: 0.0
+p^r=3.144075725928757e-14
+p^r-2/n^2=-7.069325738462502e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=4
+Probability of h(x)=h(y) is: 0.0
+p^r=1.7731541743257287e-07
+p^r-2/n^2=-5.296171878544347e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=4
+Probability of h(x)=h(y) is: 0.0
+p^r=1.7731541743257287e-07
+p^r-2/n^2=-5.296171878544347e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=1
+Probability of h(x)=h(y) is: 0.022
+p^r=0.020520437921100216
+p^r-2/n^2=0.020519730988494928
+Is probability in bounds?: False
+value of p=0.020520437921100216, and r=9
+Probability of h(x)=h(y) is: 0.0
+p^r=6.451781075315915e-16
+p^r-2/n^2=-7.069326046418294e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=3
+Probability of h(x)=h(y) is: 0.0
+p^r=8.640917806644255e-06
+p^r-2/n^2=7.933985201357248e-06
+Is probability in bounds?: False
+value of p=0.020520437921100216, and r=2
+Probability of h(x)=h(y) is: 0.001
+p^r=0.00042108837247372777
+p^r-2/n^2=0.00042038143986844077
+Is probability in bounds?: False
+value of p=0.020520437921100216, and r=6
+Probability of h(x)=h(y) is: 0.0
+p^r=7.466546054118177e-11
+p^r-2/n^2=-7.068579398264664e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=4
+Probability of h(x)=h(y) is: 0.0
+p^r=1.7731541743257287e-07
+p^r-2/n^2=-5.296171878544347e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=6
+Probability of h(x)=h(y) is: 0.0
+p^r=7.466546054118177e-11
+p^r-2/n^2=-7.068579398264664e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=1
+Probability of h(x)=h(y) is: 0.018
+p^r=0.020520437921100216
+p^r-2/n^2=0.020519730988494928
+Is probability in bounds?: False
+value of p=0.020520437921100216, and r=5
+Probability of h(x)=h(y) is: 0.0
+p^r=3.638590015879083e-09
+p^r-2/n^2=-7.032940152711285e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=3
+Probability of h(x)=h(y) is: 0.0
+p^r=8.640917806644255e-06
+p^r-2/n^2=7.933985201357248e-06
+Is probability in bounds?: False
+value of p=0.020520437921100216, and r=5
+Probability of h(x)=h(y) is: 0.0
+p^r=3.638590015879083e-09
+p^r-2/n^2=-7.032940152711285e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=10
+Probability of h(x)=h(y) is: 0.0
+p^r=1.3239337303654944e-17
+p^r-2/n^2=-7.069326052737682e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=9
+Probability of h(x)=h(y) is: 0.0
+p^r=6.451781075315915e-16
+p^r-2/n^2=-7.069326046418294e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=8
+Probability of h(x)=h(y) is: 0.0
+p^r=3.144075725928757e-14
+p^r-2/n^2=-7.069325738462502e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=2
+Probability of h(x)=h(y) is: 0.0
+p^r=0.00042108837247372777
+p^r-2/n^2=0.00042038143986844077
+Is probability in bounds?: False
+value of p=0.020520437921100216, and r=1
+Probability of h(x)=h(y) is: 0.017
+p^r=0.020520437921100216
+p^r-2/n^2=0.020519730988494928
+Is probability in bounds?: False
+value of p=0.020520437921100216, and r=6
+Probability of h(x)=h(y) is: 0.0
+p^r=7.466546054118177e-11
+p^r-2/n^2=-7.068579398264664e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=5
+Probability of h(x)=h(y) is: 0.0
+p^r=3.638590015879083e-09
+p^r-2/n^2=-7.032940152711285e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=8
+Probability of h(x)=h(y) is: 0.0
+p^r=3.144075725928757e-14
+p^r-2/n^2=-7.069325738462502e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=4
+Probability of h(x)=h(y) is: 0.0
+p^r=1.7731541743257287e-07
+p^r-2/n^2=-5.296171878544347e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=8
+Probability of h(x)=h(y) is: 0.0
+p^r=3.144075725928757e-14
+p^r-2/n^2=-7.069325738462502e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=2
+Probability of h(x)=h(y) is: 0.0
+p^r=0.00042108837247372777
+p^r-2/n^2=0.00042038143986844077
+Is probability in bounds?: False
+value of p=0.020520437921100216, and r=1
+Probability of h(x)=h(y) is: 0.015
+p^r=0.020520437921100216
+p^r-2/n^2=0.020519730988494928
+Is probability in bounds?: False
+value of p=0.020520437921100216, and r=9
+Probability of h(x)=h(y) is: 0.0
+p^r=6.451781075315915e-16
+p^r-2/n^2=-7.069326046418294e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=1
+Probability of h(x)=h(y) is: 0.023
+p^r=0.020520437921100216
+p^r-2/n^2=0.020519730988494928
+Is probability in bounds?: False
+value of p=0.020520437921100216, and r=10
+Probability of h(x)=h(y) is: 0.0
+p^r=1.3239337303654944e-17
+p^r-2/n^2=-7.069326052737682e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=10
+Probability of h(x)=h(y) is: 0.0
+p^r=1.3239337303654944e-17
+p^r-2/n^2=-7.069326052737682e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=10
+Probability of h(x)=h(y) is: 0.0
+p^r=1.3239337303654944e-17
+p^r-2/n^2=-7.069326052737682e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=8
+Probability of h(x)=h(y) is: 0.0
+p^r=3.144075725928757e-14
+p^r-2/n^2=-7.069325738462502e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=2
+Probability of h(x)=h(y) is: 0.002
+p^r=0.00042108837247372777
+p^r-2/n^2=0.00042038143986844077
+Is probability in bounds?: False
+value of p=0.020520437921100216, and r=1
+Probability of h(x)=h(y) is: 0.023
+p^r=0.020520437921100216
+p^r-2/n^2=0.020519730988494928
+Is probability in bounds?: False
+value of p=0.020520437921100216, and r=9
+Probability of h(x)=h(y) is: 0.0
+p^r=6.451781075315915e-16
+p^r-2/n^2=-7.069326046418294e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=7
+Probability of h(x)=h(y) is: 0.0
+p^r=1.5321679478856782e-12
+p^r-2/n^2=-7.069310731190597e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=5
+Probability of h(x)=h(y) is: 0.0
+p^r=3.638590015879083e-09
+p^r-2/n^2=-7.032940152711285e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=6
+Probability of h(x)=h(y) is: 0.0
+p^r=7.466546054118177e-11
+p^r-2/n^2=-7.068579398264664e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=8
+Probability of h(x)=h(y) is: 0.0
+p^r=3.144075725928757e-14
+p^r-2/n^2=-7.069325738462502e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=7
+Probability of h(x)=h(y) is: 0.0
+p^r=1.5321679478856782e-12
+p^r-2/n^2=-7.069310731190597e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=5
+Probability of h(x)=h(y) is: 0.0
+p^r=3.638590015879083e-09
+p^r-2/n^2=-7.032940152711285e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=7
+Probability of h(x)=h(y) is: 0.0
+p^r=1.5321679478856782e-12
+p^r-2/n^2=-7.069310731190597e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=1
+Probability of h(x)=h(y) is: 0.017
+p^r=0.020520437921100216
+p^r-2/n^2=0.020519730988494928
+Is probability in bounds?: False
+value of p=0.020520437921100216, and r=4
+Probability of h(x)=h(y) is: 0.0
+p^r=1.7731541743257287e-07
+p^r-2/n^2=-5.296171878544347e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=9
+Probability of h(x)=h(y) is: 0.0
+p^r=6.451781075315915e-16
+p^r-2/n^2=-7.069326046418294e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=2
+Probability of h(x)=h(y) is: 0.0
+p^r=0.00042108837247372777
+p^r-2/n^2=0.00042038143986844077
+Is probability in bounds?: False
+value of p=0.020520437921100216, and r=4
+Probability of h(x)=h(y) is: 0.0
+p^r=1.7731541743257287e-07
+p^r-2/n^2=-5.296171878544347e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=5
+Probability of h(x)=h(y) is: 0.0
+p^r=3.638590015879083e-09
+p^r-2/n^2=-7.032940152711285e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=2
+Probability of h(x)=h(y) is: 0.0
+p^r=0.00042108837247372777
+p^r-2/n^2=0.00042038143986844077
+Is probability in bounds?: False
+value of p=0.020520437921100216, and r=4
+Probability of h(x)=h(y) is: 0.0
+p^r=1.7731541743257287e-07
+p^r-2/n^2=-5.296171878544347e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=3
+Probability of h(x)=h(y) is: 0.001
+p^r=8.640917806644255e-06
+p^r-2/n^2=7.933985201357248e-06
+Is probability in bounds?: False
+value of p=0.020520437921100216, and r=8
+Probability of h(x)=h(y) is: 0.0
+p^r=3.144075725928757e-14
+p^r-2/n^2=-7.069325738462502e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=10
+Probability of h(x)=h(y) is: 0.0
+p^r=1.3239337303654944e-17
+p^r-2/n^2=-7.069326052737682e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=6
+Probability of h(x)=h(y) is: 0.0
+p^r=7.466546054118177e-11
+p^r-2/n^2=-7.068579398264664e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=1
+Probability of h(x)=h(y) is: 0.021
+p^r=0.020520437921100216
+p^r-2/n^2=0.020519730988494928
+Is probability in bounds?: False
+value of p=0.020520437921100216, and r=1
+Probability of h(x)=h(y) is: 0.023
+p^r=0.020520437921100216
+p^r-2/n^2=0.020519730988494928
+Is probability in bounds?: False
+value of p=0.020520437921100216, and r=8
+Probability of h(x)=h(y) is: 0.0
+p^r=3.144075725928757e-14
+p^r-2/n^2=-7.069325738462502e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=9
+Probability of h(x)=h(y) is: 0.0
+p^r=6.451781075315915e-16
+p^r-2/n^2=-7.069326046418294e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=10
+Probability of h(x)=h(y) is: 0.0
+p^r=1.3239337303654944e-17
+p^r-2/n^2=-7.069326052737682e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=10
+Probability of h(x)=h(y) is: 0.0
+p^r=1.3239337303654944e-17
+p^r-2/n^2=-7.069326052737682e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=6
+Probability of h(x)=h(y) is: 0.0
+p^r=7.466546054118177e-11
+p^r-2/n^2=-7.068579398264664e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=6
+Probability of h(x)=h(y) is: 0.0
+p^r=7.466546054118177e-11
+p^r-2/n^2=-7.068579398264664e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=1
+Probability of h(x)=h(y) is: 0.019
+p^r=0.020520437921100216
+p^r-2/n^2=0.020519730988494928
+Is probability in bounds?: False
+value of p=0.020520437921100216, and r=8
+Probability of h(x)=h(y) is: 0.0
+p^r=3.144075725928757e-14
+p^r-2/n^2=-7.069325738462502e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=4
+Probability of h(x)=h(y) is: 0.0
+p^r=1.7731541743257287e-07
+p^r-2/n^2=-5.296171878544347e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=1
+Probability of h(x)=h(y) is: 0.021
+p^r=0.020520437921100216
+p^r-2/n^2=0.020519730988494928
+Is probability in bounds?: False
+For strings with higher edit distance:
+value of p=0.020520437921100216, and r=57
+Probability of h(x)=h(y) is: 0.0
+p^r=6.232145840721709e-97
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=58
+Probability of h(x)=h(y) is: 0.0
+p^r=1.2788636183977276e-98
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=55
+Probability of h(x)=h(y) is: 0.0
+p^r=1.4800090071616834e-93
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=50
+Probability of h(x)=h(y) is: 0.0
+p^r=4.067534403993887e-85
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=48
+Probability of h(x)=h(y) is: 0.0
+p^r=9.659574260145751e-82
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=56
+Probability of h(x)=h(y) is: 0.0
+p^r=3.037043295413049e-95
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=52
+Probability of h(x)=h(y) is: 0.0
+p^r=1.71279144215868e-88
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=58
+Probability of h(x)=h(y) is: 0.0
+p^r=1.2788636183977276e-98
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=62
+Probability of h(x)=h(y) is: 0.0
+p^r=2.2676223633552365e-105
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=60
+Probability of h(x)=h(y) is: 0.0
+p^r=5.385145996869615e-102
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=56
+Probability of h(x)=h(y) is: 0.0
+p^r=3.037043295413049e-95
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=57
+Probability of h(x)=h(y) is: 0.0
+p^r=6.232145840721709e-97
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=53
+Probability of h(x)=h(y) is: 0.0
+p^r=3.514723046060891e-90
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=53
+Probability of h(x)=h(y) is: 0.0
+p^r=3.514723046060891e-90
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=60
+Probability of h(x)=h(y) is: 0.0
+p^r=5.385145996869615e-102
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=47
+Probability of h(x)=h(y) is: 0.0
+p^r=4.7072944043817204e-80
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=51
+Probability of h(x)=h(y) is: 0.0
+p^r=8.346758722909593e-87
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=49
+Probability of h(x)=h(y) is: 0.0
+p^r=1.9821869394957843e-83
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=42
+Probability of h(x)=h(y) is: 0.0
+p^r=1.2937138792330904e-71
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=53
+Probability of h(x)=h(y) is: 0.0
+p^r=3.514723046060891e-90
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=51
+Probability of h(x)=h(y) is: 0.0
+p^r=8.346758722909593e-87
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=56
+Probability of h(x)=h(y) is: 0.0
+p^r=3.037043295413049e-95
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=47
+Probability of h(x)=h(y) is: 0.0
+p^r=4.7072944043817204e-80
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=49
+Probability of h(x)=h(y) is: 0.0
+p^r=1.9821869394957843e-83
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=51
+Probability of h(x)=h(y) is: 0.0
+p^r=8.346758722909593e-87
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=59
+Probability of h(x)=h(y) is: 0.0
+p^r=2.6242841490884165e-100
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=50
+Probability of h(x)=h(y) is: 0.0
+p^r=4.067534403993887e-85
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=54
+Probability of h(x)=h(y) is: 0.0
+p^r=7.212365607655277e-92
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=50
+Probability of h(x)=h(y) is: 0.0
+p^r=4.067534403993887e-85
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=57
+Probability of h(x)=h(y) is: 0.0
+p^r=6.232145840721709e-97
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=63
+Probability of h(x)=h(y) is: 0.0
+p^r=4.653260393572969e-107
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=58
+Probability of h(x)=h(y) is: 0.0
+p^r=1.2788636183977276e-98
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=50
+Probability of h(x)=h(y) is: 0.0
+p^r=4.067534403993887e-85
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=54
+Probability of h(x)=h(y) is: 0.0
+p^r=7.212365607655277e-92
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=60
+Probability of h(x)=h(y) is: 0.0
+p^r=5.385145996869615e-102
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=55
+Probability of h(x)=h(y) is: 0.0
+p^r=1.4800090071616834e-93
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=55
+Probability of h(x)=h(y) is: 0.0
+p^r=1.4800090071616834e-93
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=56
+Probability of h(x)=h(y) is: 0.0
+p^r=3.037043295413049e-95
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=52
+Probability of h(x)=h(y) is: 0.0
+p^r=1.71279144215868e-88
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=49
+Probability of h(x)=h(y) is: 0.0
+p^r=1.9821869394957843e-83
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=53
+Probability of h(x)=h(y) is: 0.0
+p^r=3.514723046060891e-90
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=60
+Probability of h(x)=h(y) is: 0.0
+p^r=5.385145996869615e-102
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=57
+Probability of h(x)=h(y) is: 0.0
+p^r=6.232145840721709e-97
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=55
+Probability of h(x)=h(y) is: 0.0
+p^r=1.4800090071616834e-93
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=58
+Probability of h(x)=h(y) is: 0.0
+p^r=1.2788636183977276e-98
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=50
+Probability of h(x)=h(y) is: 0.0
+p^r=4.067534403993887e-85
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=54
+Probability of h(x)=h(y) is: 0.0
+p^r=7.212365607655277e-92
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=55
+Probability of h(x)=h(y) is: 0.0
+p^r=1.4800090071616834e-93
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=50
+Probability of h(x)=h(y) is: 0.0
+p^r=4.067534403993887e-85
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=57
+Probability of h(x)=h(y) is: 0.0
+p^r=6.232145840721709e-97
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=54
+Probability of h(x)=h(y) is: 0.0
+p^r=7.212365607655277e-92
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=49
+Probability of h(x)=h(y) is: 0.0
+p^r=1.9821869394957843e-83
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=60
+Probability of h(x)=h(y) is: 0.0
+p^r=5.385145996869615e-102
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=51
+Probability of h(x)=h(y) is: 0.0
+p^r=8.346758722909593e-87
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=51
+Probability of h(x)=h(y) is: 0.0
+p^r=8.346758722909593e-87
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=50
+Probability of h(x)=h(y) is: 0.0
+p^r=4.067534403993887e-85
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=58
+Probability of h(x)=h(y) is: 0.0
+p^r=1.2788636183977276e-98
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=63
+Probability of h(x)=h(y) is: 0.0
+p^r=4.653260393572969e-107
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=56
+Probability of h(x)=h(y) is: 0.0
+p^r=3.037043295413049e-95
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=53
+Probability of h(x)=h(y) is: 0.0
+p^r=3.514723046060891e-90
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=55
+Probability of h(x)=h(y) is: 0.0
+p^r=1.4800090071616834e-93
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=52
+Probability of h(x)=h(y) is: 0.0
+p^r=1.71279144215868e-88
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=51
+Probability of h(x)=h(y) is: 0.0
+p^r=8.346758722909593e-87
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=53
+Probability of h(x)=h(y) is: 0.0
+p^r=3.514723046060891e-90
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=55
+Probability of h(x)=h(y) is: 0.0
+p^r=1.4800090071616834e-93
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=45
+Probability of h(x)=h(y) is: 0.0
+p^r=1.1178875295768027e-76
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=52
+Probability of h(x)=h(y) is: 0.0
+p^r=1.71279144215868e-88
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=59
+Probability of h(x)=h(y) is: 0.0
+p^r=2.6242841490884165e-100
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=61
+Probability of h(x)=h(y) is: 0.0
+p^r=1.1050555412482427e-103
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=51
+Probability of h(x)=h(y) is: 0.0
+p^r=8.346758722909593e-87
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=54
+Probability of h(x)=h(y) is: 0.0
+p^r=7.212365607655277e-92
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=63
+Probability of h(x)=h(y) is: 0.0
+p^r=4.653260393572969e-107
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=60
+Probability of h(x)=h(y) is: 0.0
+p^r=5.385145996869615e-102
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=55
+Probability of h(x)=h(y) is: 0.0
+p^r=1.4800090071616834e-93
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=60
+Probability of h(x)=h(y) is: 0.0
+p^r=5.385145996869615e-102
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=64
+Probability of h(x)=h(y) is: 0.0
+p^r=9.548694103702847e-109
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=59
+Probability of h(x)=h(y) is: 0.0
+p^r=2.6242841490884165e-100
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=50
+Probability of h(x)=h(y) is: 0.0
+p^r=4.067534403993887e-85
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=54
+Probability of h(x)=h(y) is: 0.0
+p^r=7.212365607655277e-92
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=57
+Probability of h(x)=h(y) is: 0.0
+p^r=6.232145840721709e-97
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=53
+Probability of h(x)=h(y) is: 0.0
+p^r=3.514723046060891e-90
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=62
+Probability of h(x)=h(y) is: 0.0
+p^r=2.2676223633552365e-105
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=48
+Probability of h(x)=h(y) is: 0.0
+p^r=9.659574260145751e-82
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=53
+Probability of h(x)=h(y) is: 0.0
+p^r=3.514723046060891e-90
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=53
+Probability of h(x)=h(y) is: 0.0
+p^r=3.514723046060891e-90
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=53
+Probability of h(x)=h(y) is: 0.0
+p^r=3.514723046060891e-90
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=56
+Probability of h(x)=h(y) is: 0.0
+p^r=3.037043295413049e-95
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=56
+Probability of h(x)=h(y) is: 0.0
+p^r=3.037043295413049e-95
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=52
+Probability of h(x)=h(y) is: 0.0
+p^r=1.71279144215868e-88
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=53
+Probability of h(x)=h(y) is: 0.0
+p^r=3.514723046060891e-90
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=64
+Probability of h(x)=h(y) is: 0.0
+p^r=9.548694103702847e-109
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=49
+Probability of h(x)=h(y) is: 0.0
+p^r=1.9821869394957843e-83
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=50
+Probability of h(x)=h(y) is: 0.0
+p^r=4.067534403993887e-85
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=51
+Probability of h(x)=h(y) is: 0.0
+p^r=8.346758722909593e-87
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=53
+Probability of h(x)=h(y) is: 0.0
+p^r=3.514723046060891e-90
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=45
+Probability of h(x)=h(y) is: 0.0
+p^r=1.1178875295768027e-76
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=51
+Probability of h(x)=h(y) is: 0.0
+p^r=8.346758722909593e-87
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=54
+Probability of h(x)=h(y) is: 0.0
+p^r=7.212365607655277e-92
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=57
+Probability of h(x)=h(y) is: 0.0
+p^r=6.232145840721709e-97
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True
+value of p=0.020520437921100216, and r=56
+Probability of h(x)=h(y) is: 0.0
+p^r=3.037043295413049e-95
+p^r-2/n^2=-7.069326052870075e-07
+Is probability in bounds?: True

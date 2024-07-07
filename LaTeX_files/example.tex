@@ -1,0 +1,102 @@
+\documentclass{article}
+\usepackage{my_style}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{natbib}
+\usepackage{}
+
+\title{Example for Transformation}
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+$x=abc\$$, $y=bac\$$ \noindent\\
+\\
+$h_\rho(x)=\bot a\bot\bot\bot\bot$\\
+$\tau(x,\rho)$ and $x_i$:
+\begin{enumerate}
+    \item hash-insert a
+    \item hadh-match a
+    \item hash-replace b
+    \item hash-insert c
+    \item hash-replace c
+    \item hash-replace \$
+\end{enumerate}
+
+$h_\rho(y)=\bot a\bot\bot\bot\bot$\\
+$\tau(y,\rho)$ and $y_i$:
+\begin{enumerate}
+    \item hash-replace b
+    \item hadh-match a
+    \item hash-insert c
+    \item hash-insert c
+    \item hash-replace c
+    \item hash-replace \$
+\end{enumerate}
+
+\subsection*{GridWalk}
+\begin{enumerate}
+    \item $x_{i_x}\neq y_{i_y}$ and hash-insert and hash-replace $\implies$ INSERT
+    \item $x_{i_x}= y_{i_y}$ and hash-match and hash-match $\implies$ MATCH
+    \item $x_{i_x}\neq y_{i_y}$ and hash-replace and hash-insert $\implies$ DELETE
+    \item $x_{i_x}= y_{i_y}$ and hash-insert and hash-insert $\implies$ LOOP
+    \item $x_{i_x}= y_{i_y}$ and hash-replace and hash-replace $\implies$ MATCH
+    \item $x_{i_x}= y_{i_y}$ and hash-replace and hash-replace $\implies$ MATCH
+\end{enumerate}
+
+\subsection*{Transformation}
+The transformation of the above example is INSERT-DELETE. (Obtained by removing 
+MATCH and LOOP)\\
+\begin{enumerate}
+    \item $T_0(x,y)=abc\$$ and $y=bac\$$
+    \item Applying INSERT at the $0^{th}$ element\\
+    $T_1(x,y)=babc\$$ and $y=bac\$$
+    \item Applying DELETE at the $2^{nd}$ element\\
+    $T_1(x,y)=bac\$$ and $y=bac\$$
+\end{enumerate}
+
+\subsection*{Analysing Lemma 13}
+\includegraphics{./utils/transformation_example.png}\\
+Transformations which solve x and y ($\mathcal{T}(x,y,\rho)$) are:\\
+$ddii,dri,di,rddii,rdri,rdi,rr,rid,rird,riidd,id,ird,iidd$\\
+\\
+Valid transformations such that\\ $|delete|+|replace|\leq |x|$ and $|insert|+
+|replace|\leq |y|$ are:\\
+"", idiiid, didiiid, ddirdi, iiidd, idddiid, iddirr, drr, rdrdi, didir, irird, 
+ddirri, rrdri, iriidd, dididid, iiiidddd, riirdd, diddd, iddidiid, drdiri, 
+irdidr, iiidid, diiidd, idrdr, iddidir, iddrri, idiri, ddidiri, idddidii, 
+ddiiri, iidddiid, irdir, diirid, iriddid, rirr, rdiidr, irdiddi, ididdiid, 
+riiiddd, dirrdi, ddiird, drdri, dridir, iridi, iidddir, iiddrdi, idirdr, 
+didddiii, dirrd, rrird, iiddddii, ddridi, rridid, diidrd, diriddi, irdri, iridd,
+rrrd, dirid, ddird, iiidi, irrr, ddiiir, ddi, diirrd, drdii, idddd, idddi, rii,
+rdidir, irir, riid, ddiidd, irrdd, diiiddi, drdid, dddii, iirddi, rdiir, rddidi, 
+idridi, iddiidr, dddiidi, diididi, diidi, irddiid, ddiididi, didird, idirdid, 
+irr, diirdr, rdirr, iidid, driiddi, irdrr, ididri, iidrddi, iidrr, ididdid, ddd, 
+ridrr, riii, ddiidid, dididr, drirr, rrrid, dirir, iriid, didirid, ididdidi, 
+iiiddd, rddidii, diidrdi, ddiirid, iir, ridid, idrdir, idirrd, irdrdi, ddiddii, 
+idiiddd, iddidid, dddiiid, ddiiiid, diiiddid, idrddi, rridd, iidird, rdiii, 
+dridd, driddii, driidd, dididiid, didddi, iddiri, idrrid, iddrd, dddi, iddiddi, 
+iddiddii, irrdr, dririd, idi, iddidd, dddiiii, irdidd, rd, rddir, iiid, ididr, 
+iddirdi, idirr, iiddidid, ddrid, rdiird, dddiiir, ridddi, irddir, iiidddid, 
+rdiiid, rrdii, drrri, idiidi, riir, riidd, drid, idddir, iididid, didiid, 
+diirddi, ddididi, rdii, riididd, riiddr, iirdd, idrrr, iridr, ddriii, iddidi, 
+diddii, idiiiddd, dddiri, idrrdi, driird, drd, dirdri, dirdid, irddri, iri, 
+rrir, iddiii, dridii, dddidii, ddrii, iddrr, didiri, rddiir, drdi, irdrd, irii, 
+irddid, iii, idddiir, irididd, dididi, ididi, rididid, rdidi, rdrir, diiidr, 
+rddiiid, idddr, ddiiddii, idiiddi, irridd, iidiid, id, rir, rddd, diriid, 
+idddiidi, irdr, diidir, rrrdi, ddii, drdiii, iirdrd, dridr, dridid, diiddii, 
+riiddd, iiiddrd, iirrd, iiddidr, idrdi, drididi, didiidd, idididr, ddiirr, 
+diidd, diiidi, diiiid, idridr, diirdd, ididdr, dirird, rdidid, idirddi, rdirdi, 
+diidii, iidrdd, riridd, ridiidd, driidid, iiiddddi, iriiddd, rdiidid, riidr, 
+ddddiii, ididddi, ridr, iird, dididdi, ridii, diiddid, dirdiid, didrd, idiidr, 
+ddiirdi, irrddi, iidddi, riddiid, ddriri, ddiidiid, rdrd, iriddr, iiddiddi, di, 
+iddr, ididir, dri, diiididd, ddiiii, drri, rrdi, iridddi, ididdd, iddiiidd, ddiridi, driiid, iiidddr, iiidr, ridi, iidddii, ddidrii, ididiid, drdiiid, iirddid, iddididi, ddidid, riddii, rddi, ddirr, diiird, idrir, iiidddd, diddiri, irddd, rddii, idriddi, dddr, iddriid, ddriiid, drdrii, rdddiii, iid, iddddi, iididd, idridid, ddiidir, diiddr, idridd, rdriid, idrdd, dddiiiid, dddiir, rdi, iidddid, idiidid, irdid, iriddd, riiid, drdiidi, ridd, iiddid, rridr, ddrri, rddr, iridrd, iridid, drdiir, diiddi, diirdid, dddri, drridi, drdiid, ddiddi, idrdiid, didiidi, d, rdd, idddiiid, idri, ririd, iddid, iddii, diiid, iddd, ddid, iidri, idiir, iiididd, idrid, iidirdd, rididr, iiddri, riidddi, dddd, dddidi, iddiir, ddidii, idddrii, didiiddi, diddr, irid, diiidddi, didrdi, ridrd, ddidri, iirddd, dddir, iiddii, dddiii, rdird, diiir, dii, rdr, rdidri, iidi, iddrid, didrdii, ddiiidr, iididr, ddrir, ididdi, idriid, idriidd, diii, drddi, drrdi, rdiiddi, diidird, rdiddii, idd, rirdi, ir, ddiidri, drdir, rdiid, iiiid, ddrr, diidr, diiddiid, irdird, diiiiddd, riddidi, ddidiid, iriddi, driir, drrid, riddd, didri, idirid, iiddddi, dddiid, diriidd, diri, iddidr, iididdd, irrrd, iididdid, drriid, diddid, diidddi, didiidr, ridrid, rirddi, rrri, diiiddr, dddiiidi, ddidd, rrdid, irrid, irri, rdrdii, iiird, driddi, iiiddr, rddiii, ridiid, dddiidii, iddiidi, dirrid, rdiddi, idididd, iiddr, idiird, dirddii, rdrr, diddiid, ididddii, idididid, did, irrdid, diddir, rriid, iirdi, dddiiri, idiiddr, dddidiii, diddiidi, drirdi, idididdi, dr, didriid, rdiiidd, iddrdi, didid, ddiid, iiddiidd, riddir, diddidi, diir, diid, diiddidi, idiridd, ddidir, didi, rdidii, iidrdr, diddiii, didirr, riiidd, didridi, rrdir, iiidrdd, rdidiid, ididdii, ididiidd, irirdd, idrdri, diidri, iddiidid, rirdr, iidddr, diiridd, riddri, iddidri, diidid, driid, rdrid, drii, irrdi, iirdddi, rdiidd, rridi, rddid, iirdr, irdii, iddridi, diididdi, ddir, diridr, ddidiir, iidddri, iiridd, rddiidi, rirdid, rdridi, diridid, ddrd, irdi, iiddrr, ddididii, iididrd, iirddr, idiiddid, iddrir, iidr, ddiiidd, ddiiidi, dddid, iddddiii, iididddi, diidddii, iiriddd, dirdd, riidrd, iddidii, ddiiddi, rri, drrr, ddiddiii, rrid, dirii, iddiidd, ri, ddiri, iddiid, iidd, idiiidd, riidid, rriidd, rdir, diiri, rididdi, diddiir, iiiidd, iiddidd, rrr, dididdii, iirrdd, iidididd, dridri, rrdd, irdddi, iddir, iddrdii, rrddi, rrdiid, diiidid, iiirdd, dirr, dirdi, ii, dd, iirr, didii, idird, irdiidd, rdirid, diididid, iidrrd, diddrii, rr, ddiii, didddii, idiidddi, idiii, iidrdi, idrr, iiri, idir, ididdir, iddrii, drir, iddiird, ididd, irdidi, diiiddd, didiird, didd, ddiriid, diddidii, rddiri, rirrd, iddiiid, didiiidd, rdidd, rddri, idddri, diidrr, diidrid, dididd, ididid, iiiiddd, iddirid, iiddrd, irdd, drdidii, drrir, iiirddd, idirdi, diridi, ididdri, diididr, r, rrd, didiir, iiii, irddi, driidr, ridird, ddiiiddi, idiididd, riddi, ddriidi, diird, rrddii, idiid, ddrdi, didrri, diididd, iiidrd, ddiidr, didrr, idrdidi, irdddii, iirid, ridir, rrii, riiddi, idididi, rdiidi, dddrii, diiddd, ddiiid, iidii, ddirdii, irdiid, ididrr, rdid, didiidid, ddrdiii, diirdi, dridiid, drdr, dididii, dididri, rdddii, iiddidi, iiiddidd, didr, idddidi, iidrid, dirri, ddirii, ddriid, iidir, idrii, driri, idiidd, dirdir, drdd, idiidrd, ididrid, idddii, drrdii, iiddrid, irddii, ddridii, irdidid, iiddi, driiidd, drird, rddrii, ddirid, ididii, ddrrii, iiidddi, iirdid, dridi, ddriir, rdidr, iiddd, diddiiid, rdrri, rdididi, iidridd, rdddi, ddidr, rird, dirrr, iididdr, ddddi, didirdi, iidddd, diiddri, idrdid, ddidiidi, iidrdid, diidiid, rididi, iddi, iidiidd, idii, riiddid, idid, ddiidi, dirddi, riddr, idddid, riird, ridrdi, drdidi, ddidi, irdrid, rid, iiddird, ddiiiidd, ridddii, iiiddi, diirr, iiir, iididi, iiddiid, drrd, didiii, iidiiddd, ddrdii, rdri, drrii, driidi, riidi, iddddii, diiii, diiiidd, idr, ddirir, driii, idddiii, idrrd, dird, rirdd, ddiiird, ididrd, dddirii, didrid, ddddii, ddidiii, didididi, didrir, irddr, ddri, irrd, idrri, diiddir, iiddir, idrddii, riri, diddri, ddiidii, dddriii, dir, i, rrdidi, iddri, idrdii, idiirdd, diiirdd, iddiiddi, iidddidi, ird, ridri, diridd, ididird, idrd, iidrd, idirdd, didrii, rdiri, rdrii, rididd, rddiid, iididdi, dididir, ddiiidid, riddid, dirdii, ddidiiid, iirdidd, diiidrd, rrrr, rrdr, idrird, diddi, rriddi, iiididdd, dirdr, iddird, diidiidd, ddiir, drddii, irddidi, ddr, drddiii, idddiri, ddddiiii, ididrdi, dirdidi, iiiddid
+
+\bibliographystyle{alpha}
+\bibliography{refs}
+
+
+
+\end{document}
